@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://hanneys:123456@39.105.201.2:27017/hanneys
+
+  rabbitmq:
+    host: 39.105.201.2
+    port: 5672
+    username: hanneys
+    password: 123456
+    publisher-confirms: true
